@@ -10,10 +10,10 @@ Create a simple financial web app that calculates a technical indicator from CSV
 ## Key Features
 
 ### Backend CSV Data Processing
-- Read transaction data from a CSV file.
-- Each record in the CSV should include fields like "amount," "category" (e.g., groceries, bills), and "date."
+- Read OHLCV from CSV
+- Parse that into an equation to calculate financial/technical indicators
 
-### Financial Indicator Calculation
+### Technical Indicator Calculation
 Calculate a simple financial metric such as:
 - **RSI:** Calculate the relative strength index.
 - **MACD:** Calculate the Moving Average Convergent Divergent.
