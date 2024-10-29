@@ -3,7 +3,7 @@
 ## Project Overview
 Create a simple financial web app that calculates a technical indicator from CSV data and displays it on a frontend. The project will involve:
 - Creating a backend to read transaction data from a CSV file.
-- Calculating a financial metric (e.g., total spending or average spending by category).
+- Calculating a technical indicator (e.g., Rsi,MA,EMA,SMA,MACD).
 - Exposing this data via REST endpoints.
 - Consuming this data on the frontend and visualizing it using charts.
 
@@ -15,8 +15,8 @@ Create a simple financial web app that calculates a technical indicator from CSV
 
 ### Financial Indicator Calculation
 Calculate a simple financial metric such as:
-- **Total Spending:** Calculate the total amount spent.
-- **Average Spending by Category:** Calculate the average amount spent in each category.
+- **RSI:** Calculate the relative strength index.
+- **MACD:** Calculate the Moving Average Convergent Divergent.
 
 ### REST Requests
 Implement basic REST API endpoints to expose the calculated metrics:
